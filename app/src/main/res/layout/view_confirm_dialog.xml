@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="281dp"
+    android:layout_height="151dp"
+    android:orientation="vertical"
+    android:background="@drawable/shape_corner_white">
+    <TextView
+        android:layout_marginTop="13dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:text="提示"
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_home"
+        android:textColor="#666666"
+        android:layout_marginTop="56dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="14sp"
+        android:text="您当前的巡视任务还未结束，是否结束本次巡视？"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_alignParentBottom="true"
+        android:background="#e6e6e6"
+        android:layout_marginBottom="45.5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:text="取消"
+            android:gravity="center"
+            android:textColor="#a6a6a6"
+            android:textSize="16sp"
+            android:layout_marginRight="0.5dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <View
+            android:background="#e6e6e6"
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/tv_confirm"
+            android:text="确定"
+            android:gravity="center"
+            android:textColor="#3a83f2"
+            android:textSize="16sp"
+            android:layout_marginLeft="0.5dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</RelativeLayout>

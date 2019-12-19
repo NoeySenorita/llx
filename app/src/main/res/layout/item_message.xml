@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:minHeight="39dp"
+    android:layout_height="39dp">
+    <ImageView
+        android:id="@+id/bg"
+        android:background="@drawable/circle_button"
+        android:layout_width="5dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_height="5dp" />
+    <TextView
+
+        android:layout_marginLeft="20dp"
+        android:layout_centerVertical="true"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="17dp"
+        android:singleLine="true"
+        android:text="通知：2020春节放假通知，将于1月20将于1月20号将于1月20号将于1月20号将于1月20号将于1月20号将于1月20号"
+        android:textColor="#ff333333"
+        android:textSize="12sp"
+        android:id="@+id/message" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:text="今天 18:23"
+        android:layout_marginRight="10dp"
+        android:textColor="#ff333333"
+        android:textSize="12sp" />
+</LinearLayout>

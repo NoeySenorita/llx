@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pop_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+    <View
+        android:id="@+id/canss"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <LinearLayout
+        android:id="@+id/ll_pop"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/delete_button"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/btn_take_photo"
+                style="@style/popu_stytle"
+                android:text="拍照" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#e2e2e2" />
+
+            <TextView
+                android:id="@+id/btn_pick_photo"
+                style="@style/popu_stytle"
+                android:text="从相册选择" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn__cancel"
+            style="@style/popu_stytle"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/delete_button"
+            android:text="取消" />
+    </LinearLayout>
+</LinearLayout>

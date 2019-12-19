@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.outsourcing.llxpb.view.activity.PersonnelReportOutActivity">
+    <LinearLayout
+        android:layout_marginTop="11dp"
+        android:background="#ffeeeeee"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:visibility="invisible"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="姓名"
+            android:textColor="@color/main_text_b"
+            android:textSize="14sp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/p_name"
+            android:text="姓名"
+            android:textColor="@color/main_text_b"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/p_sex"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="性别"
+            android:textColor="@color/main_text_b"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/p_age"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="年龄"
+            android:textColor="@color/main_text_b"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/p_native"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="籍贯"
+            android:textColor="@color/main_text_b"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/p_position"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="工种"
+            android:textColor="@color/main_text_b"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <com.outsourcing.llxpb.ui.customView.RecyclerLayout
+        android:id="@+id/lv_personnerl_report_out"
+        android:divider="@null"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+    </com.outsourcing.llxpb.ui.customView.RecyclerLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+            <TextView
+                android:id="@+id/px_all"
+                android:layout_centerVertical="true"
+                android:text="全选"
+                android:layout_marginLeft="16dp"
+                android:gravity="center"
+                android:textColor="@color/main_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/pr_next"
+                android:layout_centerVertical="true"
+                android:text="下一步"
+                android:background="@drawable/login_button"
+                android:layout_marginLeft="16dp"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"
+                android:layout_width="104dp"
+                android:layout_alignParentRight="true"
+
+                android:layout_height="44dp" />
+    </RelativeLayout>
+</LinearLayout>

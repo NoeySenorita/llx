@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.WorkerDetailActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:background="@color/colorWhite"
+            android:padding="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="73dp">
+            <ImageView
+                android:id="@+id/iv_head"
+                android:src="@mipmap/notify"
+                android:layout_width="38dp"
+                android:layout_height="38dp"/>
+            <LinearLayout
+                android:layout_marginLeft="52dp"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/name"
+                    android:text="张三"
+                    style="@style/style_worker_detail_head_text" />
+                <TextView
+                    android:id="@+id/sex"
+                    android:text="男"
+                    style="@style/style_worker_detail_head_text" />
+                <TextView
+                    android:id="@+id/age"
+                    android:text="23岁"
+                    style="@style/style_worker_detail_head_text" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_view_photo"
+                android:textColor="@color/colorGrey"
+                android:layout_marginRight="16dp"
+                android:layout_alignParentRight="true"
+                android:text="查看照片"
+                style="@style/style_worker_detail_head_text" />
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/arrow_right"
+                android:layout_width="8dp"
+                android:layout_height="13dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            style="@style/style_worker_detail_item">
+            <TextView
+                android:text="民族"
+                style="@style/style_worker_detail_head_text" />
+            <TextView
+                android:id="@+id/tv_work_detail_nation"
+                android:textColor="@color/colorGrey"
+                android:layout_alignParentRight="true"
+                android:text="汉"
+                style="@style/style_worker_detail_head_text" />
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/style_worker_detail_item">
+            <TextView
+
+                android:text="工种"
+                style="@style/style_worker_detail_head_text" />
+            <TextView
+                android:id="@+id/tv_work_detail_type"
+                android:textColor="@color/colorGrey"
+                android:layout_alignParentRight="true"
+                android:text="钢筋工"
+                style="@style/style_worker_detail_head_text" />
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/style_worker_detail_item">
+            <TextView
+                android:text="身份证"
+                style="@style/style_worker_detail_head_text" />
+            <TextView
+                android:id="@+id/idcard"
+                android:layout_marginRight="66dp"
+                android:textColor="@color/colorGrey"
+                android:layout_alignParentRight="true"
+                android:text="421118198502181125"
+                style="@style/style_worker_detail_head_text_big" />
+
+            <TextView
+                android:id="@+id/tv_view_id_card"
+                android:textSize="14sp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="52dp"
+                android:layout_height="26dp"
+                android:background="@drawable/shape_btn_border"
+                android:text="查看" />
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/style_worker_detail_item">
+            <TextView
+                android:text="银行卡号"
+                style="@style/style_worker_detail_head_text" />
+            <TextView
+                android:id="@+id/tv_bank_card_no"
+                android:textColor="@color/colorGrey"
+                android:layout_alignParentRight="true"
+                android:text="农行  6228481101100634315"
+                style="@style/style_worker_detail_head_text" />
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/style_worker_detail_item">
+            <TextView
+                android:text="累计实发工资"
+                style="@style/style_worker_detail_head_text" />
+            <TextView
+                android:id="@+id/tv_salary_count"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_alignParentRight="true"
+                android:text="24568"
+                style="@style/style_worker_detail_head_text" />
+            <TextView
+                android:textColor="@color/colorGrey"
+                android:layout_alignParentRight="true"
+                android:text="元"
+                style="@style/style_worker_detail_head_text" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_marginTop="0.5dp"
+            android:background="@color/colorWhite"
+            android:padding="18dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="地址"
+                android:textColor="#333333"
+                android:textSize="17sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/tv_address"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="11dp"
+                android:lines="1"
+                android:ellipsize="end"
+                android:textColor="@color/colorGrey"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            style="@style/style_worker_detail_item">
+            <TextView
+                android:text="在场时长"
+                style="@style/style_worker_detail_head_text" />
+            <TextView
+                android:id="@+id/tv_in_time_count"
+                android:textColor="@color/colorGrey"
+                android:layout_alignParentRight="true"
+                style="@style/style_worker_detail_head_text" />
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/style_worker_detail_item">
+            <TextView
+                android:text="进场记录"
+                style="@style/style_worker_detail_head_text" />
+            <TextView
+                android:id="@+id/tv_in_count"
+                android:layout_marginLeft="80dp"
+                style="@style/style_worker_detail_head_text" />
+            <TextView
+                android:layout_marginRight="116dp"
+                android:textColor="@color/colorGrey"
+                android:layout_alignParentRight="true"
+                android:text="最近一次"
+                style="@style/style_worker_detail_head_text" />
+            <TextView
+                android:id="@+id/tv_in_date"
+                android:layout_marginRight="16dp"
+                android:textColor="@color/colorGrey"
+                android:layout_alignParentRight="true"
+                android:text="2019/10/12"
+                style="@style/style_worker_detail_head_text" />
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/arrow_right"
+                android:layout_centerVertical="true"
+                android:layout_width="8dp"
+                android:layout_height="13dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/style_worker_detail_item">
+            <TextView
+                android:text="退场记录"
+                style="@style/style_worker_detail_head_text" />
+            <TextView
+                android:id="@+id/tv_out_count"
+                android:layout_marginLeft="80dp"
+                android:text="29次"
+                style="@style/style_worker_detail_head_text" />
+            <TextView
+                android:layout_marginRight="116dp"
+                android:textColor="@color/colorGrey"
+                android:layout_alignParentRight="true"
+                android:text="最近一次"
+                style="@style/style_worker_detail_head_text" />
+            <TextView
+                android:id="@+id/tv_out_date"
+                android:layout_marginRight="16dp"
+                android:textColor="@color/colorGrey"
+                android:layout_alignParentRight="true"
+                android:text="2019/10/12"
+                style="@style/style_worker_detail_head_text" />
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/arrow_right"
+                android:layout_centerVertical="true"
+                android:layout_width="8dp"
+                android:layout_height="13dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

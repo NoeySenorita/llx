@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.outsourcing.llxpb.view.activity.CompleteInformationActivity">
+    <View
+        android:background="#eeeeee"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="58dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:textSize="17sp"
+            android:text="联系方式"
+            android:textColor="@color/main_text_b"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/et_phone"
+            android:textSize="17sp"
+            android:textColorHint="#cccccc"
+            android:hint="请输入手机号"
+            android:textColor="@color/main_text_b"
+            android:inputType="number"
+            android:maxLength="11"
+            android:layout_width="match_parent"
+            android:background="@null"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View
+        android:background="#eeeeee"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        android:onClick="selectTypeWork"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="58dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:textSize="17sp"
+            android:text="工种"
+            android:textColor="@color/main_text_b"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_wordType"
+            android:textSize="17sp"
+            android:textColorHint="#cccccc"
+            android:textColor="@color/main_text_b"
+            android:maxLength="11"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:layout_height="wrap_content" />
+        <ImageView
+
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/ig_init"
+            android:layout_width="31dp"
+            android:layout_height="39dp" />
+    </LinearLayout>
+    <View
+        android:background="#eeeeee"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="58dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:textSize="17sp"
+            android:text="拟定工资"
+            android:textColor="@color/main_text_b"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/ed_money"
+
+            android:textSize="17sp"
+            android:textColorHint="#cccccc"
+            android:hint="请填入拟定工资"
+            android:textColor="@color/main_text_b"
+            android:inputType="number"
+            android:maxLength="11"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_money"
+            android:layout_marginLeft="30dp"
+            android:text="元"
+            android:gravity="center"
+            android:layout_width="31dp"
+            android:layout_height="39dp" />
+    </LinearLayout>
+    <View
+        android:background="#eeeeee"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="58dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:textSize="17sp"
+            android:text="银行卡号"
+            android:textColor="@color/main_text_b"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/ed_BankCare"
+            android:textSize="17sp"
+            android:textColorHint="#cccccc"
+            android:hint="请填入工资银行卡号"
+            android:textColor="@color/main_text_b"
+            android:inputType="number"
+            android:maxLength="19"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:layout_height="wrap_content" />
+        <RelativeLayout
+            android:onClick="selectBankCare"
+            android:layout_marginLeft="5dp"
+            android:layout_width="31dp"
+            android:layout_height="39dp" >
+            <ImageView
+                android:layout_centerInParent="true"
+                android:src="@drawable/photo_yhk"
+                android:layout_width="19dp"
+                android:layout_height="16dp" />
+
+            <EditText
+                android:id="@+id/et_typeWork"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="87dp"
+                android:layout_marginEnd="31dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="请选择工种"
+                android:maxLength="11"
+                android:textColor="@color/main_text_b"
+                android:textColorHint="#cccccc"
+                android:textSize="17sp" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View
+        android:background="#eeeeee"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <TextView
+        android:onClick="intoActivity"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:text="下一步"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        android:background="@drawable/login_button"
+        android:gravity="center"
+        android:layout_marginTop="35dp"
+        />
+</LinearLayout>

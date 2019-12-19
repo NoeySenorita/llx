@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_marginTop="16dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp">
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="34dp">
+
+        <TextView
+            android:id="@+id/matter_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="#ff333333"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:id="@+id/matter_subject"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="合同外事项标题"
+            android:textColor="#ff333333"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:layout_marginLeft="14dp"
+            android:id="@+id/apply_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="201902-1"
+            android:textColor="#ffcccccc"
+            android:textSize="18sp"
+            />
+    </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/matter_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="左手交易手续费，右手项目上币费，在疯狂增长的数字货币市场，交易所毋容置疑是最大赢家，许多创业者对其趋之若鹜。同时，黑客针对交易所的安全攻击越来越多，监管所带来的不确定性也越来越大。"
+            android:textColor="#ff333333"
+            android:textSize="14sp"
+            />
+
+</LinearLayout>

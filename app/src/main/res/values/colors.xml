@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <color name="colorPrimary">#E88110</color>
+    <color name="colorTextDark">#333333</color>
+    <color name="colorTextLight">#333333</color>
+    <color name="colorLightGrey">#f3f3f3</color>
+    <color name="colorPrimaryDark">#33000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="halfTransparent">#5000</color>
+    <color name="colorWhite">#fff</color>
+    <color name="color_normal">#ffffff</color>
+    <color name="color_pressed">#dddddd</color>
+    <color name="colorGrey">#999999</color>
+    <color name="colorDarkGrey">#333333</color>
+    <color name="colorPopUpWindowBg">#30000000</color>
+    <color name="tab_checked">#ED6A2C</color>
+    <color name="tab_unchecked">#757575</color>
+    <color name="divider">#ffd2d2d2</color>
+    <color name="color_tab_bg_normal">#33ff7b77</color>
+    <color name="navpage">#FFE1E8EB</color>
+    <color name="Transparent">#00000000</color>
+    <color name="colorLightBlue">#0A73CF</color>
+    <color name="main_text">#E88110</color>
+    <color name="main_text_b">#333333</color>
+    <color name="colorLine">#EEEEEE</color>
+    <color name="colorTextError">#FF3B30</color>
+    <color name="colorA">#E88110</color>
+    <color name="colorB">#FF3B30</color>
+</resources>

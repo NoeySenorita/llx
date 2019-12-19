@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    
+    tools:context="com.outsourcing.llxpb.view.activity.PersonnelReportOutActivity">
+    <SearchView
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="21dp"
+        android:background="#F0F2F5"
+        android:id="@+id/searchView"
+        android:queryBackground="@null"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:iconifiedByDefault="false"
+        android:queryHint="搜索" />
+    <View
+        android:layout_marginTop="13dp"
+        android:background="#F0F2F5"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <ListView
+        android:divider="@null"
+        android:id="@+id/lv_projectList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+</LinearLayout>

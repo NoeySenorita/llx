@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:background="@color/colorWhite"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv_worker_order"
+        style="@style/style_today_detail_row_cell"
+        android:text="01" />
+
+    <TextView
+        android:id="@+id/tv_worker_name"
+        style="@style/style_today_detail_row_cell"
+        android:text="姓名" />
+
+    <TextView
+        android:id="@+id/tv_worker_sex"
+        style="@style/style_today_detail_row_cell"
+        android:text="性别" />
+
+    <TextView
+        android:id="@+id/tv_worker_age"
+        style="@style/style_today_detail_row_cell"
+        android:text="性别" />
+
+    <TextView
+        android:id="@+id/tv_worker_nation"
+        style="@style/style_today_detail_row_cell"
+        android:text="籍贯" />
+
+    <TextView
+        android:id="@+id/tv_worker_type"
+        style="@style/style_today_detail_row_cell"
+        android:text="工种" />
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.outsourcing.llxpb.view.activity.OutsideTheContractActivity">
+    <android.support.design.widget.TabLayout
+        app:tabMode="scrollable"
+        android:background="#ffffff"
+        app:tabIndicatorHeight="2dp"
+        app:tabBackground="@drawable/tab_background"
+        app:tabIndicatorColor="@color/Transparent"
+        app:tabSelectedTextColor="@drawable/text_select"
+        app:tabIndicatorFullWidth="false"
+        android:id="@+id/tb_layout"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"/>
+    <View
+        android:background="@color/colorLine"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+    <com.outsourcing.llxpb.ui.customView.RecyclerLayout
+        android:id="@+id/rvl_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

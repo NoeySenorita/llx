@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="50dp"
+    android:orientation="horizontal"
+    android:paddingBottom="0.5dp"
+    android:id="@+id/item_view"
+
+    android:background="@color/colorLine">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="阿里巴巴"
+            android:id="@+id/message1"
+            style="@style/style_early_warning_table_cell1" />
+        <TextView
+            android:id="@+id/message2"
+            android:text="100w"
+            style="@style/style_early_warning_table_cell1" />
+    </LinearLayout>
+
+
+</LinearLayout>

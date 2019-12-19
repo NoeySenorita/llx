@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\lhcx\\llx\\qrcodecore\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxhdpi-v4_qrcode_default_scan_line.png.flat",
+        "source": "D:\\lhcx\\llx\\qrcodecore\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxhdpi-v4\\qrcode_default_scan_line.png"
+    },
+    {
+        "merged": "D:\\lhcx\\llx\\qrcodecore\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap-xxhdpi-v4_qrcode_default_grid_scan_line.png.flat",
+        "source": "D:\\lhcx\\llx\\qrcodecore\\build\\intermediates\\bundles\\debug\\res\\mipmap-xxhdpi-v4\\qrcode_default_grid_scan_line.png"
+    }
+]

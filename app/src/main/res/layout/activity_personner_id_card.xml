@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context="com.outsourcing.llxpb.view.activity.PersonnerIdCardActivity">
+    <ImageView
+        android:id="@+id/front_id_card_fileBODY"
+        android:onClick="selectIdCartFront"
+        android:layout_marginTop="25dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/front_id_card_file"
+        android:layout_width="164dp"
+        android:layout_height="104dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/main_text_b"
+        android:text="上传身份证人像面照片"
+        android:textSize="14sp"
+        android:layout_marginTop="11dp"
+        />
+    <ImageView
+        android:scaleType="fitXY"
+        android:onClick="selectIdCartBack"
+        android:background="@drawable/back_id_card_file"
+        android:id="@+id/back_id_card_fileBODY"
+        android:layout_marginTop="27dp"
+        android:layout_width="164dp"
+        android:layout_height="104dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/main_text_b"
+        android:text="上传身份证国徽面照片"
+        android:textSize="14sp"
+        android:layout_marginTop="11dp"
+        />
+    <TextView
+        android:onClick="nextSendIdCore"
+        android:textSize="18sp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/login_button"
+        android:text="下一步"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="47dp" />
+</LinearLayout>

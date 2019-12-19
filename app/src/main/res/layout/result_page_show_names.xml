@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="125dp"
+    android:background="#000000"
+    android:layout_height="78dp">
+    <TextView
+        android:id="@+id/message"
+        android:paddingLeft="8dp"
+        android:paddingRight="9dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:layout_centerInParent="true"
+        android:gravity="center|left"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="王力宏，赵四，张三，马飞飞，张萌萌5人不符"
+        android:textColor="#ffffffff"
+        android:textSize="12sp"
+        />
+</RelativeLayout>

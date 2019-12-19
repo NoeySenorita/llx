@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.outsourcing.llxpb.view.activity.MeHtActivity">
+    <LinearLayout
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="52dp">
+        <TextView
+            android:id="@+id/tv_h1"
+            android:text="合同编号"
+            style="@style/style_early_warning_table_cell" />
+        <TextView
+            android:id="@+id/tv_h2"
+            android:text="合同内申报"
+            style="@style/style_early_warning_table_cell" />
+        <TextView
+            android:id="@+id/tv_h3"
+            android:text="实际验工"
+            style="@style/style_early_warning_table_cell" />
+    </LinearLayout>
+    <View
+        android:background="@color/colorLine"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+    <com.outsourcing.llxpb.ui.customView.RecyclerLayout
+        android:id="@+id/rvl_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

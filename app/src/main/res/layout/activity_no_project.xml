@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:gravity="center_horizontal" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.outsourcing.llxpb.view.activity.NoProjectActivity">
+    <ImageView
+        android:layout_marginTop="64dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/error_project"
+        android:layout_width="66dp"
+        android:layout_height="66dp" />
+    <TextView
+        android:layout_marginTop="70dp"
+        android:layout_width="236dp"
+        android:layout_height="25dp"
+        android:text="您需要被邀请加入一个项目！"
+        android:textColor="#ff333333"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:onClick="outLogin"
+        android:layout_marginTop="86dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="退出登录"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:background="@drawable/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="47dp" />
+</LinearLayout>

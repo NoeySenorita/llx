@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.base.CommonActivity">
+    <RelativeLayout
+        android:id="@+id/rl_title_bar"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="64dp">
+        <RelativeLayout
+            android:paddingRight="20dp"
+            android:id="@+id/rl_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_marginLeft="12dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="11dp"
+                android:src="@drawable/arrow_back"
+                android:layout_width="12dp"
+                android:layout_height="19dp" />
+            <TextView
+                android:textSize="14sp"
+                android:layout_marginLeft="27dp"
+                android:layout_centerVertical="true"
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/tv_title"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="11dp"
+            android:text="Title"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/iv_title"
+            android:visibility="gone"
+            android:layout_width="7dp"
+            android:layout_height="7dp"
+            android:layout_toRightOf="@+id/tv_title"
+            android:background="@drawable/sanjiaoxing"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:layout_marginLeft="2dp"
+            android:layout_marginBottom="19dp"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:visibility="visible"
+            android:id="@+id/ll_right_more"
+            android:layout_alignParentRight="true"
+            android:paddingRight="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/iv_right_icon"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/icon_publish"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp" />
+            <TextView
+                android:id="@+id/tv_right"
+                android:textSize="15sp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:text="发布"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+    </RelativeLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:id="@+id/fl_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </FrameLayout>
+        <ProgressBar
+            android:indeterminate="true"
+            android:indeterminateDrawable="@drawable/shape_progress"
+            android:visibility="gone"
+            android:id="@+id/pb_loading"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+</LinearLayout>

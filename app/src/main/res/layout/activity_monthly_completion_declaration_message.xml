@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.outsourcing.llxpb.view.activity.MonthlyCompletionDeclarationMessageActivity">
+    <RelativeLayout
+        android:id="@+id/rl_title_bar"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="64dp">
+        <RelativeLayout
+            android:paddingRight="20dp"
+            android:id="@+id/rl_back_My"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_marginLeft="12dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="11dp"
+                android:src="@drawable/arrow_back"
+                android:layout_width="12dp"
+                android:layout_height="19dp" />
+            <TextView
+                android:textSize="14sp"
+                android:layout_marginLeft="27dp"
+                android:layout_centerVertical="true"
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="11dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_title_time"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:text="Title"
+                android:textColor="#E88110"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_title_message"
+                android:textSize="18sp"
+                android:gravity="center"
+
+                android:text="Title"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/iv_title"
+            android:visibility="gone"
+            android:layout_width="7dp"
+            android:layout_height="7dp"
+            android:layout_toRightOf="@+id/tv_title"
+            android:background="@drawable/sanjiaoxing"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:layout_marginLeft="2dp"
+            android:layout_marginBottom="19dp"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:visibility="visible"
+            android:id="@+id/ll_right_more"
+            android:layout_alignParentRight="true"
+            android:paddingRight="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/iv_right_icon"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/icon_publish"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp" />
+            <TextView
+                android:id="@+id/tv_right"
+                android:textSize="15sp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:text="发布"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View
+        android:background="@color/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:paddingBottom="0.5dp"
+        android:id="@+id/item_view"
+        android:background="@color/colorLine">
+        <TextView
+            android:text="年·月"
+            android:id="@+id/m_name"
+            style="@style/style_early_warning_table_cell" />
+        <TextView
+            android:id="@+id/m_declare"
+            android:text="申报分配"
+            style="@style/style_early_warning_table_cell" />
+
+        <TextView
+            android:id="@+id/m_inspectionWork1"
+            android:text="发放日期"
+            style="@style/style_early_warning_table_cell" />
+        <TextView
+            android:id="@+id/m_inspectionWork2"
+            android:text="实际发放"
+            style="@style/style_early_warning_table_cell" />
+    </LinearLayout>
+    <View
+        android:background="@color/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rl_message"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </android.support.v7.widget.RecyclerView>
+    <RelativeLayout
+        android:background="#E88110"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <LinearLayout
+            android:layout_marginLeft="15dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="申报分配合计："
+                android:textColor="#ffffffff"
+                android:textSize="14sp"
+                />
+            <TextView
+                android:id="@+id/money1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0元"
+                android:textColor="#ffffffff"
+                android:textSize="14sp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="实际发放合计："
+                android:textColor="#ffffffff"
+                android:textSize="14sp"
+                />
+            <TextView
+                android:id="@+id/money2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0元"
+                android:textColor="#ffffffff"
+                android:textSize="14sp"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

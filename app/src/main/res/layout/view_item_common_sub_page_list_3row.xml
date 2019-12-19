@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:paddingBottom="0.5dp"
+    android:id="@+id/item_view"
+    android:background="@color/colorLine">
+        <TextView
+            android:text="阿里巴巴"
+            android:id="@+id/name"
+            style="@style/style_early_warning_table_cell" />
+        <TextView
+            android:id="@+id/declare"
+            android:text="100w"
+            style="@style/style_early_warning_table_cell" />
+        <TextView
+            android:id="@+id/inspectionWork"
+            android:text="202w"
+            style="@style/style_early_warning_table_cell" />
+</LinearLayout>

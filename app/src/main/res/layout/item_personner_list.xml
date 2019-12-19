@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="53dp"
+    android:minHeight="53dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/p_name"
+            android:text="姓名"
+            android:textColor="@color/main_text_b"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/p_sex"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="性别"
+            android:textColor="@color/main_text_b"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/p_native"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="籍贯"
+            android:textColor="@color/main_text_b"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/p_position"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="工种"
+            android:textColor="@color/main_text_b"
+            android:textSize="14sp" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+            <TextView
+
+                android:id="@+id/p_play"
+                android:gravity="center"
+                android:background="@drawable/personner_button"
+                android:textSize="12sp"
+                android:textColor="@color/main_text"
+                android:text="完善信息"
+                android:layout_width="56dp"
+                android:layout_height="20dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#eeeeee" />
+</LinearLayout>

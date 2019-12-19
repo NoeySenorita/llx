@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.outsourcing.llxpb.view.activity.AddcontractingOutItemActivity">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/addContaractingRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        
+    </android.support.v7.widget.RecyclerView>
+    <LinearLayout
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="44dp">
+        <TextView
+            android:onClick="add"
+            android:background="@drawable/add_button"
+            android:gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="再增加一条"
+            android:textColor="#ffffffff"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:onClick="ok"
+            android:background="@drawable/login_button"
+            android:gravity="center"
+            android:layout_marginRight="16dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="完成"
+            android:textColor="#ffffffff"
+            android:textSize="18sp"
+            />
+    </LinearLayout>
+</LinearLayout>

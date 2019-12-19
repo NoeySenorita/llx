@@ -1,0 +1,22 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="base_page_title_bar_height">64dp</dimen>
+    <dimen name="base_page_title_size">18sp</dimen>
+    <dimen name="page_padding">15dp</dimen>
+    <dimen name="fragment_me_user_icon_size">93dp</dimen>
+    <dimen name="home_icon_padding_left">7dp</dimen>
+    <dimen name="app_border_space">12dp</dimen>
+    <dimen name="app_component_inter_space">8dp</dimen>
+    <dimen name="app_component_group_vertical_space">8dp</dimen>
+    <dimen name="app_bottom_layout_height">52dp</dimen>
+
+
+
+    <color name="default_circular_color">#4c99d9</color>
+    <color name="default_circular_progress_color">#ffffff</color>
+    <dimen name="default_circular_width">3.5dp</dimen>
+    <dimen name="edge">10dp</dimen>
+    <dimen name="default_text_size">50sp</dimen>
+</resources>
